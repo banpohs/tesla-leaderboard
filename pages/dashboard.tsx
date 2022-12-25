@@ -34,6 +34,7 @@ export default function Dashboard() {
               name: values.name,
               studentID: values.studentID,
               seconds: Number(values.seconds),
+              staff, values.staff
             }),
           })
             .then((res) => res)
