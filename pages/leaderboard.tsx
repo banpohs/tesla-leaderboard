@@ -19,9 +19,12 @@ export default function Home(props: { list: leaderboard[] }) {
   let rank = 0
   return (
     <>
+      <Head>
+        <meta http-equiv="refresh" content="10" />
+      </Head>
       <Box
         textAlign="center"
-        px={{ base: 10, md: 20 }}
+        px={20}
         py={8}
         minHeight="100vh"
         bgColor="blue.100"
