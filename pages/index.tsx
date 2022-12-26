@@ -27,7 +27,7 @@ export default function Home(props: { list: leaderboard[] }) {
         bgColor="blue.100"
       >
         <Heading size="xl" pb={10}>
-          테슬라 RC카 리더보드
+          테슬라 & PEW RC카 리더보드
         </Heading>
         <Box bgColor="white" mx="auto" w={60} py={4} borderRadius="lg">
           <Heading size="md" textTransform="uppercase">
